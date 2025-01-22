@@ -12,6 +12,6 @@ Did a course on Mathematics for Machine learning
 Started with Computational Statistics as honors sub. for sem-6   
 Was feeling horrible, stressed and depressed, and took a break from learning for 3-4 months reading good books and novels    
 And I am back to learning and implementing new ideas and projects.   
-Now Learning from Scratch.    
+Now Learning from Scratch (not too long)   
 Planning to Deep learning, Computer Vision and backed dev.    
 [18/01/2025]
