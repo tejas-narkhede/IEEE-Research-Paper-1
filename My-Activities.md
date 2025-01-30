@@ -9,5 +9,5 @@ Learned basics of Deep Learning
 Was feeling stressed, and took a break from learning for 3-4 months reading good books.  
 And I am back to learning and implementing new ideas and projects.   
 Now Learning from Scratch (not too long)   
-Planning to Deep learning, Computer Vision and backed dev.    
+Planning to learn Deep learning, Computer Vision and backed dev.    
 [18/01/2025]
