@@ -4,7 +4,7 @@ and Here I will be posting my learning and project activities thoughout the year
 to give short info of what I did upto now is,    
 started with C/C++ Prog and Python    
 Explored Astrophysics and Astronomy   
-Started Learning Machine Learning and AI ,and want to shift focus on Quantum Computing and ML 
+Started Learning Machine Learning and AI ,and want to shift focus on Quantum Computing and ML    
 Learned basics of Deep Learning   
 Was feeling stressed, and took a break from learning for 3-4 months reading good books.  
 And I am back to learning and implementing new ideas and projects.   
