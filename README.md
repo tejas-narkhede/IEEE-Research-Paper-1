@@ -60,22 +60,8 @@
 
 ---
 
-## 📈 GitHub Profile Insights  
-
-![Tejas's GitHub stats](https://github-readme-stats.vercel.app/api?username=tejas-narkhede&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tejas-narkhede&layout=compact)  
-
----
-
-## 🎯 Research Progress  
-
-![GitHub milestones](https://img.shields.io/github/milestones/progress/tejas-narkhede/IEEE-Research-Paper-1/1?style=flat-square)  
-*(Tracks research and publication progress dynamically)*  
-
----
-
 ## 📖 Citation (Planned)  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.0000000.svg)](https://doi.org/10.5281/zenodo.0000000)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.0000000.svg)]()  
 *(DOI badge will be activated once paper is deposited)*  
 
