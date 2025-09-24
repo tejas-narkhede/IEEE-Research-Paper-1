@@ -1,2 +1,34 @@
-# Machine-Learning
-just some projects and research stuffs...
+# From Classical ML to EUPN-VAE: MBTI Personality Classification
+
+## Overview
+
+This project aims to predict Myers-Briggs Type Indicator (MBTI) personality types from people's social media posts using advanced artificial intelligence techniques. The research combines classical machine learning methods with cutting-edge deep learning models to improve both the accuracy and trustworthiness of personality predictions. Our most innovative contribution is the Entropic Uncertainty Personality Variational Autoencoder (EUPN-VAE), a model that not only predicts personality types but also gives a measure of how confident it is in its predictions—making the results more interpretable and reliable for use in real-world decisions.
+
+## What is the MBTI and Why Does It Matter?
+
+The MBTI is a popular system for categorizing personality using four dimensions such as Extraversion-Introversion and Thinking-Feeling. It is widely used in education, recruitment, and mental health. Understanding personality from social media posts can help create more personalized and meaningful interactions, but doing so automatically with computers is challenging due to the complex nature of language and individual differences.
+
+## Step-by-Step Research Process (Simple Explanation)
+
+1. **Collect Data**: We started with a large, freely-available dataset from Kaggle, containing over 100,000 anonymized social media posts, each labeled with the person's MBTI type.[1]
+2. **Clean the Data**: Before using artificial intelligence, we cleaned up the posts by removing unnecessary information (like links and extra punctuation), making all text lowercase, and simplifying words to their basic form.
+3. **Turn Words into Numbers**: Computers need numbers to analyze text. We converted posts into numbers using different methods:
+   - TF-IDF (counts “important” words)
+   - Word2Vec, GloVe, FastText (capture word meanings)
+4. **Train Classical ML Models**: We tried traditional methods like Logistic Regression, Random Forest, Naive Bayes, and XGBoost, seeing which could best match posts to personality types. TF-IDF plus Logistic Regression worked very well.
+5. **Deep Learning Models**: To understand the flow and meaning within sentences, we used models called LSTM and BiLSTM. These models can read text forwards and backwards at the same time and often give even better results.[1]
+6. **EUPN-VAE Model**: We designed a brand-new model that can “imagine” possible personalities for a user based on uncertainty and hidden traits. It uses advanced techniques to balance how much detail it learns and how accurate it is. A special genetic algorithm helps avoid mistakes and improves how confident the model is when results are unclear.
+7. **Compare Results**: We checked how well each approach worked. BiLSTM with TF-IDF was the most accurate, but our EUPN-VAE model is unique because it can also say when it is unsure—making it useful when exact results aren’t possible or when we need to understand “grey areas” in personality.
+8. **Challenges & Future Work**: Personality is complex—social, cultural, and ethical factors make it hard to label data and trust model results. Our future improvements include reinforcement learning, better handling imbalanced data, and adapting models to real-time data from platforms like X (Twitter) or Instagram.
+
+## Links
+
+- [Project Paper (PDF)](./From-Classical-ML-to-EUPN-VAE-A-Unified-Framework-for-MBTI-Personality-Classification-2.pdf)
+- [Conference Certification](./AIC-2025-Presentation-Certificate-133.pdf)
+
+## View Count
+
+`[Click or embed here your project's view stats badge]`
+Example: ![View Count Badge](https://visitor-badge.laobi.icu/badge?page_id=yourusername
+
+**Paper status:** In process of publishing (under review at IEEE World Conference on Applied Intelligence and Computing 2025)
