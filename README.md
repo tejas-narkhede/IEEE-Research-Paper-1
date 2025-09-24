@@ -28,7 +28,6 @@ The MBTI is a popular system for categorizing personality using four dimensions 
 
 ## View Count
 
-`[Click or embed here your project's view stats badge]`
-Example: ![View Count Badge](https://visitor-badge.laobi.icu/badge?page_id=yourusername
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge)
 
 **Paper status:** In process of publishing (under review at IEEE World Conference on Applied Intelligence and Computing 2025)
