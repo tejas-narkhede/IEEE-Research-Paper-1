@@ -34,7 +34,7 @@ The MBTI is a popular system for categorizing personality using four dimensions 
 ## Links
 
 - [Project Paper (PDF)](./From-Classical-ML-to-EUPN-VAE-A-Unified-Framework-for-MBTI-Personality-Classification-2.pdf)
-- [Conference Certification](./AIC-2025-Presentation-Certificate-133.pdf)
+- [Conference Certification](./src/AIC 2025 Presentation Certificate-133.pdf)
 
 ## View Count
 
