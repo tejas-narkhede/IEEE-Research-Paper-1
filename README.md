@@ -8,7 +8,7 @@ This project aims to predict Myers-Briggs Type Indicator (MBTI) personality type
 
 The MBTI is a popular system for categorizing personality using four dimensions such as Extraversion-Introversion and Thinking-Feeling. It is widely used in education, recruitment, and mental health. Understanding personality from social media posts can help create more personalized and meaningful interactions, but doing so automatically with computers is challenging due to the complex nature of language and individual differences.
 
-## Step-by-Step Research Process (Simple Explanation)
+## Step-by-Step Research Process
 
 1. **Collect Data**: We started with a large, freely-available dataset from Kaggle, containing over 100,000 anonymized social media posts, each labeled with the person's MBTI type.[1]
 2. **Clean the Data**: Before using artificial intelligence, we cleaned up the posts by removing unnecessary information (like links and extra punctuation), making all text lowercase, and simplifying words to their basic form.
@@ -16,10 +16,20 @@ The MBTI is a popular system for categorizing personality using four dimensions 
    - TF-IDF (counts “important” words)
    - Word2Vec, GloVe, FastText (capture word meanings)
 4. **Train Classical ML Models**: We tried traditional methods like Logistic Regression, Random Forest, Naive Bayes, and XGBoost, seeing which could best match posts to personality types. TF-IDF plus Logistic Regression worked very well.
-5. **Deep Learning Models**: To understand the flow and meaning within sentences, we used models called LSTM and BiLSTM. These models can read text forwards and backwards at the same time and often give even better results.[1]
+5. **Deep Learning Models**: To understand the flow and meaning within sentences, we used models called LSTM and BiLSTM. These models can read text forwards and backwards at the same time and often give even better results.
 6. **EUPN-VAE Model**: We designed a brand-new model that can “imagine” possible personalities for a user based on uncertainty and hidden traits. It uses advanced techniques to balance how much detail it learns and how accurate it is. A special genetic algorithm helps avoid mistakes and improves how confident the model is when results are unclear.
 7. **Compare Results**: We checked how well each approach worked. BiLSTM with TF-IDF was the most accurate, but our EUPN-VAE model is unique because it can also say when it is unsure—making it useful when exact results aren’t possible or when we need to understand “grey areas” in personality.
 8. **Challenges & Future Work**: Personality is complex—social, cultural, and ethical factors make it hard to label data and trust model results. Our future improvements include reinforcement learning, better handling imbalanced data, and adapting models to real-time data from platforms like X (Twitter) or Instagram.
+
+## Technologies Used
+
+- **Programming Languages**: Python
+- **Frameworks**: TensorFlow (EUPN-VAE implementation), scikit-learn (classical ML models)
+- **ML Algorithms**: Logistic Regression, XGBoost, CatBoost, Random Forest, Naive Bayes, Support Vector Machines
+- **Deep Learning Models**: LSTM, BiLSTM, custom VAE architecture
+- **Embedding Methods**: TF-IDF, Word2Vec, GloVe, FastText
+- **Other Tools**: Genetic Algorithm for model optimization, Adam optimizer for training, regularization and dropout for stability
+- **Dataset Source**: MBTI Personality Types, Kaggle
 
 ## Links
 
@@ -28,6 +38,14 @@ The MBTI is a popular system for categorizing personality using four dimensions 
 
 ## View Count
 
+Add both badge and dynamic count for better interactivity:
+```markdown
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge)
+
+<!-- Dynamic View Counter Script -->
+<p align="center">
+  <img src="https://badges.pufler.dev/visits/{tejas-narkhede}/{IEEE-Research-Paper-1}/?style=for-the-badge&color=blue" alt="View Count"/>
+</p>
+```
 
 **Paper status:** In process of publishing (under review at IEEE World Conference on Applied Intelligence and Computing 2025)
