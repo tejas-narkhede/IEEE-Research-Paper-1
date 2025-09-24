@@ -42,3 +42,40 @@
 
 
    **Paper status:** In process of publishing (under review at IEEE World Conference on Applied Intelligence and Computing 2025)
+
+
+## 📊 Repo Activity & Stats  
+
+![GitHub last commit](https://img.shields.io/github/last-commit/tejas-narkhede/IEEE-Research-Paper-1?style=flat-square)  
+![GitHub repo size](https://img.shields.io/github/repo-size/tejas-narkhede/IEEE-Research-Paper-1?style=flat-square)  
+![GitHub issues](https://img.shields.io/github/issues/tejas-narkhede/IEEE-Research-Paper-1?style=flat-square)  
+![GitHub stars](https://img.shields.io/github/stars/tejas-narkhede/IEEE-Research-Paper-1?style=flat-square)  
+![GitHub forks](https://img.shields.io/github/forks/tejas-narkhede/IEEE-Research-Paper-1?style=flat-square)  
+
+---
+
+## 🚀 Live Model Demo (Planned)  
+[![HuggingFace Spaces](https://img.shields.io/badge/🤗-Try%20Model%20Demo-yellow.svg?style=flat-square)](https://huggingface.co/spaces/)  
+*(Coming soon: interactive demo of MBTI classifier using Gradio)*  
+
+---
+
+## 📈 GitHub Profile Insights  
+
+![Tejas's GitHub stats](https://github-readme-stats.vercel.app/api?username=tejas-narkhede&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tejas-narkhede&layout=compact)  
+
+---
+
+## 🎯 Research Progress  
+
+![GitHub milestones](https://img.shields.io/github/milestones/progress/tejas-narkhede/IEEE-Research-Paper-1/1?style=flat-square)  
+*(Tracks research and publication progress dynamically)*  
+
+---
+
+## 📖 Citation (Planned)  
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.0000000.svg)](https://doi.org/10.5281/zenodo.0000000)  
+*(DOI badge will be activated once paper is deposited)*  
+
