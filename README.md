@@ -34,7 +34,7 @@
    ## Links
 
    - [Project Paper (PDF)](./From-Classical-ML-to-EUPN-VAE-A-Unified-Framework-for-MBTI-Personality-Classification-2.pdf)
-   - [Conference Certification](./AIC-2025-Presentation-Certificate-133.pdf)
+   - [Conference Certification](https://drive.google.com/file/d/1__eYbmr618xnw5RQGjPEtlS641tRYWs6/view)
 
    ## View Count
 
