@@ -72,7 +72,7 @@ This research tackles these challenges using scalable and explainable AI.
 
 ## View Count
 
-![Hits](https://hits.sh/tejas-narkhede/IEEE-Research-Paper-1.svg?style=flat-square)
+![Hits](https://hits.sh/tejas--narkhede/IEEE--Research--Paper--1.svg?style=flat-square)
 
 ---
 
