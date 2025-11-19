@@ -62,5 +62,5 @@
 
 ## 📖 Citation (Planned)  
 
-[![DOI](https://doi.org/10.1109/AIC66080.2025.11211954)](https://doi.org/10.1109/AIC66080.2025.11211954)
+[![DOI](https://zenodo.org/badge/doi/10.1109/AIC66080.2025.11211954.svg)](https://doi.org/10.1109/AIC66080.2025.11211954)
 
