@@ -72,7 +72,8 @@ This research tackles these challenges using scalable and explainable AI.
 
 ## View Count
 
-![Repo Views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tejas-narkhede/IEEE-Research-Paper-1/main/.github/badges/views.json&style=flat-square)
+![Repo Views](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tejas-narkhede/IEEE-Research-Paper-1/master/.github/badges/views.json&style=flat-square)
+
 
 ---
 
