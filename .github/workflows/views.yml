@@ -48,7 +48,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # Pull latest changes (avoid push rejection)
+          git pull --rebase
+
           git add -A
           git commit -m "Update views badge" || echo "No changes to commit"
           git push
-
