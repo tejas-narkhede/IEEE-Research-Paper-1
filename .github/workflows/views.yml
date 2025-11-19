@@ -48,10 +48,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet; then
-            echo "No changes"
-          else
-            git add .github/badges/views.json
-            git commit -m "Update views badge"
-            git push
-          fi
+          git add -A
+          git commit -m "Update views badge" || echo "No changes to commit"
+          git push
+
