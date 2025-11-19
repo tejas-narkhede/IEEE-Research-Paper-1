@@ -33,7 +33,7 @@
 
    ## Links
 
-   - [Project Paper (PDF)](./From-Classical-ML-to-EUPN-VAE-A-Unified-Framework-for-MBTI-Personality-Classification-2.pdf)
+   - [Research Paper](https://ieeexplore.ieee.org/document/11211954)
    - [Conference Certification](https://drive.google.com/file/d/1__eYbmr618xnw5RQGjPEtlS641tRYWs6/view)
 
    ## View Count
@@ -62,6 +62,5 @@
 
 ## 📖 Citation (Planned)  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.0000000.svg)]()  
-*(DOI badge will be activated once paper is deposited)*  
+[![DOI](https://doi.org/10.1109/AIC66080.2025.11211954)](https://doi.org/10.1109/AIC66080.2025.11211954)
 
