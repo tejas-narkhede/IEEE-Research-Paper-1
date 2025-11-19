@@ -1,48 +1,80 @@
-   # From Classical ML to EUPN-VAE: MBTI Personality Classification
+# From Classical ML to EUPN-VAE: Advancing MBTI Personality Classification
 
-   ## Overview
+## Overview
 
-   This project aims to predict Myers-Briggs Type Indicator (MBTI) personality types from people's social media posts using advanced artificial intelligence techniques. The research combines classical machine learning methods with cutting-edge deep learning models to improve both the accuracy and trustworthiness of personality predictions. Our most innovative contribution is the Entropic Uncertainty Personality Variational Autoencoder (EUPN-VAE), a model that not only predicts personality types but also gives a measure of how confident it is in its predictions—making the results more interpretable and reliable for use in real-world decisions.
+This project delivers a comprehensive exploration of MBTI personality classification from social media text—starting from classical machine learning baselines and progressing toward a novel deep generative architecture. The central contribution is the **Entropic Uncertainty Personality Variational Autoencoder (EUPN-VAE)**, a model designed not only to predict personality types but also to quantify uncertainty in its decisions. This enables more transparent, interpretable, and trustworthy predictions suitable for real-world psychological or behavioral applications.
 
-   ## What is the MBTI and Why Does It Matter?
+---
 
-   The MBTI is a popular system for categorizing personality using four dimensions such as Extraversion-Introversion and Thinking-Feeling. It is widely used in education, recruitment, and mental health. Understanding personality from social media posts can help create more personalized and meaningful interactions, but doing so automatically with computers is challenging due to the complex nature of language and individual differences.
+## What is MBTI and Why Does It Matter?
 
-   ## Step-by-Step Research Process
+The Myers–Briggs Type Indicator divides personality into four independent dimensions, forming sixteen personality types. MBTI is widely applied across career guidance, team dynamics, education, and mental-health–related assessments.  
+Automating MBTI prediction from text offers immense potential, yet poses challenges due to linguistic diversity, subtle expression patterns, and personal variability.  
+This research tackles these challenges using scalable and explainable AI.
 
-   1. **Collect Data**: We started with a large, freely-available dataset from Kaggle, containing over 100,000 anonymized social media posts, each labeled with the person's MBTI type.[1]
-   2. **Clean the Data**: Before using artificial intelligence, we cleaned up the posts by removing unnecessary information (like links and extra punctuation), making all text lowercase, and simplifying words to their basic form.
-   3. **Turn Words into Numbers**: Computers need numbers to analyze text. We converted posts into numbers using different methods:
-      - TF-IDF (counts “important” words)
-      - Word2Vec, GloVe, FastText (capture word meanings)
-   4. **Train Classical ML Models**: We tried traditional methods like Logistic Regression, Random Forest, Naive Bayes, and XGBoost, seeing which could best match posts to personality types. TF-IDF plus Logistic Regression worked very well.
-   5. **Deep Learning Models**: To understand the flow and meaning within sentences, we used models called LSTM and BiLSTM. These models can read text forwards and backwards at the same time and often give even better results.
-   6. **EUPN-VAE Model**: We designed a brand-new model that can “imagine” possible personalities for a user based on uncertainty and hidden traits. It uses advanced techniques to balance how much detail it learns and how accurate it is. A special genetic algorithm helps avoid mistakes and improves how confident the model is when results are unclear.
-   7. **Compare Results**: We checked how well each approach worked. BiLSTM with TF-IDF was the most accurate, but our EUPN-VAE model is unique because it can also say when it is unsure—making it useful when exact results aren’t possible or when we need to understand “grey areas” in personality.
-   8. **Challenges & Future Work**: Personality is complex—social, cultural, and ethical factors make it hard to label data and trust model results. Our future improvements include reinforcement learning, better handling imbalanced data, and adapting models to real-time data from platforms like X (Twitter) or Instagram.
+---
 
-   ## Technologies Used
+## Research Workflow
 
-   - **Programming Languages**: Python
-   - **Frameworks**: TensorFlow (EUPN-VAE implementation), scikit-learn (classical ML models)
-   - **ML Algorithms**: Logistic Regression, XGBoost, CatBoost, Random Forest, Naive Bayes, Support Vector Machines
-   - **Deep Learning Models**: LSTM, BiLSTM, custom VAE architecture
-   - **Embedding Methods**: TF-IDF, Word2Vec, GloVe, FastText
-   - **Other Tools**: Genetic Algorithm for model optimization, Adam optimizer for training, regularization and dropout for stability
-   - **Dataset Source**: MBTI Personality Types, Kaggle
+1. **Dataset Acquisition**  
+   Used the Kaggle MBTI dataset containing 100,000+ anonymized social media posts labelled with MBTI types.
 
-   ## Links
+2. **Text Preprocessing**  
+   Performed noise removal (URLs, symbols), lowercasing, tokenization, and lemmatization to create a clean, consistent dataset.
 
-   - [Research Paper](https://ieeexplore.ieee.org/document/11211954)
-   - [Conference Certification](https://drive.google.com/file/d/1__eYbmr618xnw5RQGjPEtlS641tRYWs6/view)
+3. **Text Representation**  
+   Experimented with multiple encoding approaches:  
+   - **TF-IDF** for sparse linguistic patterns  
+   - **Word2Vec**, **GloVe**, **FastText** for dense semantic representations  
 
-   ## View Count
+4. **Classical ML Baselines**  
+   Built Logistic Regression, Naive Bayes, SVM, Random Forest, XGBoost, and CatBoost classifiers.  
+   *TF-IDF + Logistic Regression* emerged as the strongest traditional baseline.
 
-   ![Profile Views](https://komarev.com/ghpvc/?username=tejas-narkhede&repo=IEEE-Research-Paper-1&style=flat-square)
+5. **Deep Learning Models**  
+   Used LSTM and BiLSTM architectures to capture sequential context.  
+   BiLSTM combined with TF-IDF produced highly competitive accuracy.
 
+6. **EUPN-VAE (Proposed Model)**  
+   Designed a custom VAE-based architecture that learns a latent distribution of personality traits and expresses *how certain* it is about its predictions.  
+   Key innovations include:
+   - Entropy-guided latent refinement  
+   - KL β-annealing for improved regularization  
+   - Genetic algorithm optimization for stable latent exploration  
 
-   **Paper status:** In process of publishing (under review at IEEE World Conference on Applied Intelligence and Computing 2025)
+7. **Evaluation & Benchmarking**  
+   Compared models on accuracy, robustness, and uncertainty quality.  
+   While deep learning models achieved strong predictive performance, **EUPN-VAE stands out by providing calibrated uncertainty**, making it valuable in ambiguous or multi-personality scenarios.
 
+8. **Future Scope**  
+   Potential extensions include reinforcement learning–based reasoning, improved handling of imbalanced MBTI classes, and adaptation for real-time platforms such as Twitter/X and Instagram.
+
+---
+
+## Technologies Used
+
+- **Languages:** Python  
+- **Frameworks:** TensorFlow, scikit-learn  
+- **ML Algorithms:** Logistic Regression, SVM, Random Forest, Naive Bayes, XGBoost, CatBoost  
+- **Deep Learning:** LSTM, BiLSTM, custom VAE architecture  
+- **Embeddings:** TF-IDF, Word2Vec, GloVe, FastText  
+- **Other Tools:** Genetic Algorithm, Adam optimizer, dropout & regularization  
+- **Dataset:** MBTI Personality Types (Kaggle)
+
+---
+
+## Links
+
+- **Research Paper:** https://ieeexplore.ieee.org/document/11211954  
+- **Conference Certificate:** https://drive.google.com/file/d/1__eYbmr618xnw5RQGjPEtlS641tRYWs6/view
+
+---
+
+## View Count
+
+![Hits](https://hits.sh/tejas-narkhede/IEEE-Research-Paper-1.svg?style=flat-square)
+
+---
 
 ## 📊 Repo Activity & Stats  
 
@@ -54,13 +86,12 @@
 
 ---
 
-## 🚀 Live Model Demo (Planned)  
-[![HuggingFace Spaces](https://img.shields.io/badge/🤗-Try%20Model%20Demo-yellow.svg?style=flat-square)](https://huggingface.co/spaces/)  
-*(Coming soon: interactive demo of MBTI classifier using Gradio)*  
+## 🚀 Live Model Demo (Coming Soon)
+
+[![HuggingFace Spaces](https://img.shields.io/badge/🤗-Model%20Demo%20Coming%20Soon-yellow.svg?style=flat-square)](https://huggingface.co/spaces/)
 
 ---
 
-## 📖 Citation (Planned)  
+## 📖 Citation  
 
 [![DOI](https://zenodo.org/badge/doi/10.1109/AIC66080.2025.11211954.svg)](https://doi.org/10.1109/AIC66080.2025.11211954)
-
